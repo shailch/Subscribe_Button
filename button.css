@@ -1,0 +1,65 @@
+.button {
+    background-color: rgb(231, 19, 19);
+    text-align: center;
+    padding-left: 240px;padding-right:205px;padding-top: 100px;padding-bottom: 100px;
+    border-radius: 12px;border: none;
+    margin: 10px;
+    font-size: 70px;color: aliceblue;font-family:Arial, Helvetica, sans-serif;
+    opacity:10;
+    transition: 0.03s;
+  }
+
+  .button:hover{
+    background-color: rgb(33, 236, 236);
+  }
+
+  .button:hover::after{
+    content: " ";
+    display:block;
+    left: 18.3%;
+	top: 1.1%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(81, 30, 223, 0);
+	border-left-color: rgb(33, 236, 236);
+	border-width: 165px;
+	margin-top: -25px;
+    margin-left: -6px;
+  }
+
+.button1 {
+    background-color: rgb(136, 231, 19);
+    text-align: center;
+    padding-left: 240px;padding-right:205px;padding-top: 100px;padding-bottom: 100px;
+    border-radius: 12px;border: none;
+    margin: 10px;
+    font-size: 70px;color: aliceblue;font-family:Arial, Helvetica, sans-serif;
+    opacity:10;
+    transition: 0.03s;
+}
+
+.button1:hover{
+  background-color: rgb(216, 33, 236);
+}
+
+.button1:hover::after::after{
+  content: " ";
+  display:block;
+  left: 18.3%;
+top: 1.2%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+border-color: rgba(81, 30, 223, 0);
+border-left-color: rgb(216, 33, 236);
+border-width: 165px;
+margin-top: -25px;
+  margin-left: -6px;
+}

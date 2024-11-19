@@ -1,0 +1,24 @@
+#h1{
+    font-family:Libre Baskerville;
+    color:white;
+    text-align:left;
+    font-size: 200px;
+    margin-bottom: 0px;
+}
+
+#img{
+ margin-top:0px;
+ padding-left: 900px;
+}
+
+.div{
+ background-color: black;
+ position:fixed;
+ top: 10%;
+ left:24%;
+ margin-top:-100px;  // half of height
+ margin-left:-200px;  // half of width
+ cursor:pointer;
+ padding:100px;
+ position::backdrop
+}
